@@ -37,7 +37,7 @@ namespace ExercicioException.Entidades
             }
             if (valor > Saldo)
             {
-                throw new Dominio("Não há saldo suficiente");
+                throw new Dominio("Não há saldo suficiente...");
             }
 
             Saldo -= valor;
